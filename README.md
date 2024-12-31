@@ -24,6 +24,8 @@ Listar libros por idioma: Filtra los libros en la base de datos según el idioma
 
 Salir: Termina la aplicación.
 
+### Ejemplo del menu en consola de Intellij
+
 ```
 Ingrese el numero de la operacion a realizar
 
