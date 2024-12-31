@@ -65,3 +65,23 @@ MySQL Driver --Connector Java Version 8.0.33
 Jackson databind
 
 ```
+### Para configurar las variables necesarias para la conexion con la BBDD MySQL y no se expongan al compartir el proyecto tenemos dos opciones
+
+- Configurar las variables de entorno de forma local
+
+ ```
+- Buscamos editar variables de entorno del sistema
+
+- Ingresamos en la opcion variables de entorno
+
+- Creamos las variables necesarias para la conexion a la BBDD
+    - localhost
+    - nombre BBDD
+    - usuario
+    - password 
+
+ ```
+
+- Mediante archivo .env, para lo cual necesitariamos incluir la libreria ```dotenv-java``` y luego crear una clase para manejar la configuracion de las variables para conectarse a MySQL
+
+  
