@@ -40,3 +40,26 @@ Ingrese el numero de la operacion a realizar
 0-PARA SALIR
 
 ```
+
+## Configuracion Inicial del entorno Java Y Spring
+
+```
+Configuración al crear el proyecto en Spring Initializr:
+
+Java (versión 17 en adelante)
+
+Maven (Initializr utiliza la versión 4)
+
+Spring Boot (ultima version al 28/12/24)
+
+Proyecto en JAR
+
+Dependencias para agregar al crear el proyecto en Spring Initializr:
+
+Spring Data JPA
+
+MySQL Driver --Connector Java Version 8.0.33
+
+Jackson databind
+
+```
